@@ -66,5 +66,5 @@ var small int8 = int8(big)  // オーバーフロー！
 ## 実行方法
 
 ```bash
-go run 01_basics/type_conversions.go
+go run 01_basics/11_type_conversions.go
 ```

@@ -40,5 +40,5 @@ math.Sqrt(7)
 ## 実行方法
 
 ```bash
-go run 01_basics/imports.go
+go run 01_basics/02_imports.go
 ```

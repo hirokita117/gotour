@@ -66,5 +66,5 @@ const now = time.Now()        // エラー！
 ## 実行方法
 
 ```bash
-go run 01_basics/constants.go
+go run 01_basics/13_constants.go
 ```

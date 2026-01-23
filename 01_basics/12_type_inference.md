@@ -61,5 +61,5 @@ g := f  // g は float64
 ## 実行方法
 
 ```bash
-go run 01_basics/type_inference.go
+go run 01_basics/12_type_inference.go
 ```

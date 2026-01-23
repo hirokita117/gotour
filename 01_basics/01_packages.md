@@ -40,5 +40,5 @@ fmt.Println("My favorite number is", rand.Intn(100))
 ## 実行方法
 
 ```bash
-go run 01_basics/packages.go
+go run 01_basics/01_packages.go
 ```

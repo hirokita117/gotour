@@ -54,5 +54,5 @@ fmt.Printf("%v %v %v %q\n", i, f, b, s)
 ## 実行方法
 
 ```bash
-go run 01_basics/zero_values.go
+go run 01_basics/10_zero_values.go
 ```

@@ -50,5 +50,5 @@ func main() {
 ## 実行方法
 
 ```bash
-go run 01_basics/short_variable_declarations.go
+go run 01_basics/08_short_variable_declarations.go
 ```

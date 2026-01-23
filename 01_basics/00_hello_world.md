@@ -40,5 +40,5 @@ func main() {
 ## 実行方法
 
 ```bash
-go run 01_basics/hello_world.go
+go run 01_basics/00_hello_world.go
 ```

@@ -52,5 +52,5 @@ Go では「結果, エラー」のパターンが非常に一般的です。
 ## 実行方法
 
 ```bash
-go run 01_basics/multiple_results.go
+go run 01_basics/05_multiple_results.go
 ```

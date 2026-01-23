@@ -75,5 +75,5 @@ fmt.Printf("Type: %T Value: %v\n", ToBe, ToBe)
 ## 実行方法
 
 ```bash
-go run 01_basics/basic_types.go
+go run 01_basics/09_basic_types.go
 ```

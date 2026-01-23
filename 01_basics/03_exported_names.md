@@ -36,5 +36,5 @@ fmt.println  // ✗ エクスポートされていない
 ## 実行方法
 
 ```bash
-go run 01_basics/exported_names.go
+go run 01_basics/03_exported_names.go
 ```

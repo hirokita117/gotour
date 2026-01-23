@@ -49,5 +49,5 @@ func split(sum int) (x, y int) {
 ## 実行方法
 
 ```bash
-go run 01_basics/named_return_values.go
+go run 01_basics/06_named_return_values.go
 ```

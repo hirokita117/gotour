@@ -51,5 +51,5 @@ Go は「名前: 型」の順で書くことで、複雑な型宣言でも読み
 ## 実行方法
 
 ```bash
-go run 01_basics/functions.go
+go run 01_basics/04_functions.go
 ```
