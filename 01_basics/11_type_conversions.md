@@ -68,3 +68,13 @@ var small int8 = int8(big)  // オーバーフロー！
 ```bash
 go run 01_basics/11_type_conversions.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Zero Values（ゼロ値）](10_zero_values.md) | 次: [Type Inference（型推論）](12_type_inference.md) →
+
+### 関連トピック
+- [Basic Types（基本型）](09_basic_types.md) - Go の基本データ型
+- [Type Inference（型推論）](12_type_inference.md) - 型の自動推論

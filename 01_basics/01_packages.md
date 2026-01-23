@@ -42,3 +42,13 @@ fmt.Println("My favorite number is", rand.Intn(100))
 ```bash
 go run 01_basics/01_packages.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Hello, World](00_hello_world.md) | 次: [Imports（インポート）](02_imports.md) →
+
+### 関連トピック
+- [Imports（インポート）](02_imports.md) - パッケージのインポート方法
+- [Exported Names（エクスポートされた名前）](03_exported_names.md) - 外部公開の命名規則

@@ -52,3 +52,13 @@ func main() {
 ```bash
 go run 01_basics/08_short_variable_declarations.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Variables（変数）](07_variables.md) | 次: [Basic Types（基本型）](09_basic_types.md) →
+
+### 関連トピック
+- [Variables（変数）](07_variables.md) - `var` による変数宣言
+- [Type Inference（型推論）](12_type_inference.md) - 型の自動推論

@@ -63,3 +63,13 @@ g := f  // g は float64
 ```bash
 go run 01_basics/12_type_inference.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Type Conversions（型変換）](11_type_conversions.md) | 次: [Constants（定数）](13_constants.md) →
+
+### 関連トピック
+- [Type Conversions（型変換）](11_type_conversions.md) - 型間の変換
+- [Short Variable Declarations（短い変数宣言）](08_short_variable_declarations.md) - `:=` による簡潔な変数宣言

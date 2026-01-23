@@ -53,3 +53,13 @@ Go は「名前: 型」の順で書くことで、複雑な型宣言でも読み
 ```bash
 go run 01_basics/04_functions.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Exported Names（エクスポートされた名前）](03_exported_names.md) | 次: [Multiple Results（複数の戻り値）](05_multiple_results.md) →
+
+### 関連トピック
+- [Multiple Results（複数の戻り値）](05_multiple_results.md) - 関数から複数の値を返す
+- [Named Return Values（名前付き戻り値）](06_named_return_values.md) - 戻り値に名前をつける

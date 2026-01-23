@@ -51,3 +51,13 @@ func split(sum int) (x, y int) {
 ```bash
 go run 01_basics/06_named_return_values.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Multiple Results（複数の戻り値）](05_multiple_results.md) | 次: [Variables（変数）](07_variables.md) →
+
+### 関連トピック
+- [Functions（関数）](04_functions.md) - 関数の基本
+- [Multiple Results（複数の戻り値）](05_multiple_results.md) - 関数から複数の値を返す

@@ -38,3 +38,13 @@ fmt.println  // ✗ エクスポートされていない
 ```bash
 go run 01_basics/03_exported_names.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Imports（インポート）](02_imports.md) | 次: [Functions（関数）](04_functions.md) →
+
+### 関連トピック
+- [Packages（パッケージ）](01_packages.md) - パッケージの基本
+- [Imports（インポート）](02_imports.md) - パッケージのインポート方法

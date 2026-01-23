@@ -42,3 +42,13 @@ math.Sqrt(7)
 ```bash
 go run 01_basics/02_imports.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Packages（パッケージ）](01_packages.md) | 次: [Exported Names（エクスポートされた名前）](03_exported_names.md) →
+
+### 関連トピック
+- [Packages（パッケージ）](01_packages.md) - パッケージの基本
+- [Exported Names（エクスポートされた名前）](03_exported_names.md) - 外部公開の命名規則

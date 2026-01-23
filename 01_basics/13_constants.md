@@ -68,3 +68,13 @@ const now = time.Now()        // エラー！
 ```bash
 go run 01_basics/13_constants.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Type Inference（型推論）](12_type_inference.md)
+
+### 関連トピック
+- [Variables（変数）](07_variables.md) - 変数宣言との違い
+- [Basic Types（基本型）](09_basic_types.md) - 定数で使える型

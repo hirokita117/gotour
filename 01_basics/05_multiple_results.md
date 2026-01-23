@@ -54,3 +54,13 @@ Go では「結果, エラー」のパターンが非常に一般的です。
 ```bash
 go run 01_basics/05_multiple_results.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Functions（関数）](04_functions.md) | 次: [Named Return Values（名前付き戻り値）](06_named_return_values.md) →
+
+### 関連トピック
+- [Functions（関数）](04_functions.md) - 関数の基本
+- [Named Return Values（名前付き戻り値）](06_named_return_values.md) - 戻り値に名前をつける

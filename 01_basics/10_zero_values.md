@@ -56,3 +56,13 @@ fmt.Printf("%v %v %v %q\n", i, f, b, s)
 ```bash
 go run 01_basics/10_zero_values.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Basic Types（基本型）](09_basic_types.md) | 次: [Type Conversions（型変換）](11_type_conversions.md) →
+
+### 関連トピック
+- [Basic Types（基本型）](09_basic_types.md) - Go の基本データ型
+- [Variables（変数）](07_variables.md) - 変数宣言とゼロ値

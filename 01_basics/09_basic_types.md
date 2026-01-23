@@ -77,3 +77,13 @@ fmt.Printf("Type: %T Value: %v\n", ToBe, ToBe)
 ```bash
 go run 01_basics/09_basic_types.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Short Variable Declarations（短い変数宣言）](08_short_variable_declarations.md) | 次: [Zero Values（ゼロ値）](10_zero_values.md) →
+
+### 関連トピック
+- [Zero Values（ゼロ値）](10_zero_values.md) - 型ごとの初期値
+- [Type Conversions（型変換）](11_type_conversions.md) - 型間の変換

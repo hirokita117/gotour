@@ -42,3 +42,13 @@ func main() {
 ```bash
 go run 01_basics/00_hello_world.go
 ```
+
+---
+
+## ナビゲーション
+
+次: [Packages（パッケージ）](01_packages.md) →
+
+### 関連トピック
+- [Imports（インポート）](02_imports.md) - パッケージのインポート方法
+- [Exported Names（エクスポートされた名前）](03_exported_names.md) - 外部公開の命名規則

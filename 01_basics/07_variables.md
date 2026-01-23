@@ -53,3 +53,13 @@ var k int
 ```bash
 go run 01_basics/07_variables.go
 ```
+
+---
+
+## ナビゲーション
+
+← 前: [Named Return Values（名前付き戻り値）](06_named_return_values.md) | 次: [Short Variable Declarations（短い変数宣言）](08_short_variable_declarations.md) →
+
+### 関連トピック
+- [Short Variable Declarations（短い変数宣言）](08_short_variable_declarations.md) - `:=` による簡潔な変数宣言
+- [Basic Types（基本型）](09_basic_types.md) - Go の基本データ型
