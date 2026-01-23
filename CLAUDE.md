@@ -6,26 +6,31 @@
 
 ```
 gotour/
-├── 01_basics/
+├── 01_basics/                # Go ソースコード
+├── 01_basics_explanation/    # 解説ファイル（md）
 ├── 02_flowcontrol/
+├── 02_flowcontrol_explanation/
 ├── 03_moretypes/
+├── 03_moretypes_explanation/
 ├── 04_methods/
-└── 05_concurrency/
+├── 04_methods_explanation/
+├── 05_concurrency/
+└── 05_concurrency_explanation/
 ```
 
-各フォルダは A Tour of Go のセクションに対応しています。
+各セクションは A Tour of Go に対応し、Go ファイルと解説ファイルは別ディレクトリに分離されています。
 
 ## ファイル生成ルール
 
 学習トピックごとに以下の2ファイルをセットで生成すること:
 
-1. **Go ファイル** (`<番号>_<topic>.go`)
+1. **Go ファイル** (`<セクション>/<番号>_<topic>.go`)
    - 実行可能なサンプルコード
    - `package main` と `func main()` を含める
    - コード内のコメントは最小限に（詳細は md ファイルに記載）
    - ファイル名の先頭に2桁の番号をつける（A Tour of Go の順序に対応）
 
-2. **解説ファイル** (`<番号>_<topic>.md`)
+2. **解説ファイル** (`<セクション>_explanation/<番号>_<topic>.md`)
    - 日本語で記述
    - 以下の構成で記載:
      - 概要（このトピックで学ぶこと）
@@ -38,12 +43,14 @@ gotour/
 ### ファイル名の例
 
 ```
-01_basics/
+01_basics/                     # Go ソースコード
 ├── 00_hello_world.go
-├── 00_hello_world.md
 ├── 01_packages.go
+└── 02_imports.go
+
+01_basics_explanation/         # 解説ファイル
+├── 00_hello_world.md
 ├── 01_packages.md
-├── 02_imports.go
 └── 02_imports.md
 ```
 
