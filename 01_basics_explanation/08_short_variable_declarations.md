@@ -1,5 +1,7 @@
 # Short Variable Declarations（短い変数宣言）
 
+> **ソースコード**: [08_short_variable_declarations.go](../01_basics/08_short_variable_declarations.go)
+
 ## 概要
 
 関数内では `:=` を使った短い変数宣言が使えます。型は右辺の値から自動的に推論されます。

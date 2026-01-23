@@ -1,5 +1,7 @@
 # Type Conversions（型変換）
 
+> **ソースコード**: [11_type_conversions.go](../01_basics/11_type_conversions.go)
+
 ## 概要
 
 Go では異なる型間の代入には明示的な型変換が必要です。暗黙的な型変換は行われません。

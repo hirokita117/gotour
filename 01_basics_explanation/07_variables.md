@@ -1,5 +1,7 @@
 # Variables（変数）
 
+> **ソースコード**: [07_variables.go](../01_basics/07_variables.go)
+
 ## 概要
 
 Go では `var` キーワードで変数を宣言します。変数は初期化しなければゼロ値になります。

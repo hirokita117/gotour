@@ -1,5 +1,7 @@
 # Named Return Values（名前付き戻り値）
 
+> **ソースコード**: [06_named_return_values.go](../01_basics/06_named_return_values.go)
+
 ## 概要
 
 Go では戻り値に名前をつけることができます。名前付き戻り値は関数の先頭で宣言された変数として扱われます。

@@ -1,5 +1,7 @@
 # Imports（インポート）
 
+> **ソースコード**: [02_imports.go](../01_basics/02_imports.go)
+
 ## 概要
 
 Go ではパッケージをインポートする方法が2つあります。括弧でグループ化する「factored import」と、個別に書く方法です。

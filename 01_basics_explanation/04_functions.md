@@ -1,5 +1,7 @@
 # Functions（関数）
 
+> **ソースコード**: [04_functions.go](../01_basics/04_functions.go)
+
 ## 概要
 
 Go の関数は `func` キーワードで定義します。引数の型は変数名の後に書きます。

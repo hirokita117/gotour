@@ -1,5 +1,7 @@
 # Multiple Results（複数の戻り値）
 
+> **ソースコード**: [05_multiple_results.go](../01_basics/05_multiple_results.go)
+
 ## 概要
 
 Go の関数は複数の値を返すことができます。これは Go の大きな特徴の一つです。

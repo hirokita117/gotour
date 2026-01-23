@@ -1,5 +1,7 @@
 # Hello, World
 
+> **ソースコード**: [00_hello_world.go](../01_basics/00_hello_world.go)
+
 ## 概要
 
 Go言語の最も基本的なプログラムです。すべてのGoプログラムは `package` 宣言から始まり、実行可能プログラムは必ず `main` パッケージに属します。

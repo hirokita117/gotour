@@ -1,5 +1,7 @@
 # Type Inference（型推論）
 
+> **ソースコード**: [12_type_inference.go](../01_basics/12_type_inference.go)
+
 ## 概要
 
 `:=` や初期値付きの `var` では、右辺の値から型が自動的に推論されます。
