@@ -66,8 +66,8 @@
 ```markdown
 # <トピック名> - 学習メモ
 
-> **元の解説**: [<番号>_<topic>.md](../<セクション>_explanation/<番号>_<topic>.md)  
-> **ソースコード**: [<番号>_<topic>.go](../<セクション>/<番号>_<topic>.go)  
+> **元の解説**: [<番号>_<topic>.md](https://github.com/hirokita117/gotour/blob/main/<セクション>_explanation/<番号>_<topic>.md)  
+> **ソースコード**: [<番号>_<topic>.go](https://github.com/hirokita117/gotour/blob/main/<セクション>/<番号>_<topic>.go)  
 > **作成日**: <YYYY-MM-DD>
 
 ## 質問
@@ -88,8 +88,8 @@
 
 ## 参考リンク
 
-- [関連トピック1](../<セクション>_explanation/<ファイル>.md) - <説明>
-- [関連トピック2](../<セクション>_explanation/<ファイル>.md) - <説明>
+- [関連トピック1](https://github.com/hirokita117/gotour/blob/main/<セクション>_explanation/<ファイル>.md) - <説明>
+- [関連トピック2](https://github.com/hirokita117/gotour/blob/main/<セクション>_explanation/<ファイル>.md) - <説明>
 - [A Tour of Go - <トピック>](<URL>)
 ```
 
@@ -140,6 +140,6 @@
 
 - 常に日本語で回答してください
 - コード例は実行可能な形式で提供してください
-- 関連トピックへのリンクは相対パスで記載してください
+- 関連トピックへのリンクはGitHubの絶対URLで記載してください（例: `https://github.com/hirokita117/gotour/blob/main/01_basics_explanation/00_hello_world.md`）
 - 学習ドキュメントは既存の内容を上書きせず、追記形式で保存してください
 - ディレクトリが存在しない場合は自動的に作成されます
