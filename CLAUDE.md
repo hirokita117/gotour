@@ -19,12 +19,13 @@ gotour/
 
 学習トピックごとに以下の2ファイルをセットで生成すること:
 
-1. **Go ファイル** (`<topic>.go`)
+1. **Go ファイル** (`<番号>_<topic>.go`)
    - 実行可能なサンプルコード
    - `package main` と `func main()` を含める
    - コード内のコメントは最小限に（詳細は md ファイルに記載）
+   - ファイル名の先頭に2桁の番号をつける（A Tour of Go の順序に対応）
 
-2. **解説ファイル** (`<topic>.md`)
+2. **解説ファイル** (`<番号>_<topic>.md`)
    - 日本語で記述
    - 以下の構成で記載:
      - 概要（このトピックで学ぶこと）
@@ -37,13 +38,15 @@ gotour/
 
 ```
 01_basics/
-├── hello_world.go
-├── hello_world.md
-├── packages.go
-├── packages.md
-├── imports.go
-└── imports.md
+├── 00_hello_world.go
+├── 00_hello_world.md
+├── 01_packages.go
+├── 01_packages.md
+├── 02_imports.go
+└── 02_imports.md
 ```
+
+番号は A Tour of Go の学習順序に対応しており、復習時に順番がわかりやすくなっています。
 
 ## 解説ファイル（md）のテンプレート
 
@@ -70,7 +73,7 @@ gotour/
 ## 実行方法
 
 \`\`\`bash
-go run <filename>.go
+go run 01_basics/<番号>_<topic>.go
 \`\`\`
 ```
 
@@ -78,8 +81,8 @@ go run <filename>.go
 
 ```bash
 # 単一ファイルの実行
-go run 01_basics/hello_world.go
+go run 01_basics/00_hello_world.go
 
 # ディレクトリ内で実行
-cd 01_basics && go run hello_world.go
+cd 01_basics && go run 00_hello_world.go
 ```
