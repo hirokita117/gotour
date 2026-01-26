@@ -13,6 +13,7 @@ Modifications by hirokita117:
 - Created additional documentation and learning notes.
 
 The original Go source code examples used in this repository are subject to the BSD-style license by The Go Authors. See https://go.dev/LICENSE for the full text of the Go license.
+The full text is also included in this repository as LICENSE-GO.
 
 The documentation content (explanations) in this repository is licensed under the Creative Commons Attribution 4.0 International License (LICENSE-DOCS).
 

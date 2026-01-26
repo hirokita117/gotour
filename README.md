@@ -112,6 +112,6 @@ cd 01_basics && go run 00_hello_world.go
 
 - **ドキュメント解説**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (詳細は [LICENSE-DOCS](LICENSE-DOCS) を参照)
 - **ソースコード**: [MIT License](LICENSE) (リポジトリ構成とオリジナルツール)
-- **Go コード例**: A Tour of Go 由来のコードは [BSD-style license](https://go.dev/LICENSE) (The Go Authors) に準拠します。
+- **Go コード例**: A Tour of Go 由来の Go コード例は The Go Authors の BSD-style license に準拠します（本文: [LICENSE-GO](LICENSE-GO)）。
 
 詳細は [NOTICE](NOTICE) ファイルをご確認ください。
