@@ -1,0 +1,19 @@
+NOTICE
+
+This repository contains materials derived from "A Tour of Go" (© The Go Authors).
+
+Original Content:
+- Source: A Tour of Go (https://go.dev/tour/)
+- Content License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+- Code License: BSD-style license (The Go Authors)
+
+Modifications by hirokita117:
+- Reorganized content structure for learning purposes.
+- Translated and summarized explanations into Japanese.
+- Created additional documentation and learning notes.
+
+The original Go source code examples used in this repository are subject to the BSD-style license by The Go Authors. See https://go.dev/LICENSE for the full text of the Go license.
+
+The documentation content (explanations) in this repository is licensed under the Creative Commons Attribution 4.0 International License (LICENSE-DOCS).
+
+The repository structure and original tooling are licensed under the MIT License (LICENSE).
