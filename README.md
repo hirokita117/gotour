@@ -6,6 +6,8 @@
 
 ```
 gotour/
+├── server/                   # バックエンドサーバー (Golang/Gin) - API・Wasmコンパイル
+├── web/                      # フロントエンド (React/Vite) - インタラクティブ学習UI
 ├── 01_basics/                # 基本構文（パッケージ、変数、関数など）
 ├── 01_basics_explanation/    # 基本構文の解説
 ├── 01_basics_learning/       # 学習メモ（自動生成）
@@ -24,6 +26,43 @@ gotour/
 ```
 
 各セクションは A Tour of Go の章立てに対応しています。
+
+## Web学習プラットフォームのアーキテクチャ
+
+このリポジトリには、ローカルLLMを使ってインタラクティブにGolangを学習できるWebプラットフォームが含まれています。
+
+- **フロントエンド (`web/`)**: React (Vite) + Tailwind CSS + Monaco Editor
+  - リポジトリ内の解説（Markdown）とソースコードを表示します。
+  - ブラウザ上でGoコードを編集・実行できるサンドボックス環境を提供します。
+  - ローカルLLMと連携したチャットUIを備え、学習中の疑問をすぐにAIに質問できます。
+- **バックエンド (`server/`)**: Golang (Gin)
+  - リポジトリのディレクトリ構成を読み取り、学習トピックのリストとコンテンツ（Markdown/Go）をフロントエンドに提供します。
+  - ユーザーがブラウザで編集したGoコードを受け取り、`GOOS=js GOARCH=wasm go build` を実行してWebAssembly (Wasm) バイナリを生成・返却します。
+  - LM Studio等のローカルLLMサーバー（デフォルト `http://localhost:1234`）へのAPIリクエストをプロキシし、CORSの問題を回避します。
+- **実行環境 (WebAssembly)**:
+  - ブラウザ上でWasmを実行することで、安全かつ高速にGoコードの動作確認が可能です（標準出力やエラーはターミナルUIに表示されます）。
+
+### Webプラットフォームの起動方法
+
+**1. ローカルLLMの準備**
+[LM Studio](https://lmstudio.ai/) 等を起動し、ローカルサーバー機能（Local Server）を Port `1234` で立ち上げておきます。
+
+**2. バックエンドの起動**
+```bash
+cd server
+go run main.go
+# デフォルトで http://localhost:8080 で起動します
+```
+
+**3. フロントエンドの起動**（別のターミナルで実行）
+```bash
+cd web
+npm install
+npm run dev
+# デフォルトで http://localhost:5173 にアクセスします
+```
+
+ブラウザで `http://localhost:5173` にアクセスすると、学習環境が利用できます。
 
 - **Go ファイル** (`XX_section/`): 実行可能なサンプルコード
 - **解説ファイル** (`XX_section_explanation/`): 日本語による詳細な解説
